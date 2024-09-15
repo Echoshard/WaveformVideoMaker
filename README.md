@@ -61,11 +61,10 @@ python waveform_video_maker.py
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Notes
+- Aspect Ratio: When creating images or videos, ensure that they match the selected aspect ratio (16:9 or 9:16). If the assets do not match the chosen ratio, they may appear stretched or distorted.
 
-- When making images or videos ensure that it is the correct aspect ratio, 16/9 or 9/16 if that is chosen or else it will stretch the assets oddly.
+- Processing Speed: This tool uses MoviePy, which is not the fastest option for video processing but offers a faster alternative to saving each frame individually. Processing time depends on the length of your video. It's recommended to start with a preview video to verify the appearance before generating the full-length video. You can monitor the progress in the console.
 
-- It's using MoviePy isn't exactly fast but it's faster then saving every frame. Video processing can take a while based upon how long your video is but it is a fire and forget process. Progress can be seen in the console I recommend making a preview video first to ensure everything looks right.
-
-- Background videos must loop correctly or be longer then your audio
+- Background Videos: Ensure that background videos loop seamlessly or are longer than the audio track to avoid abrupt endings or visual inconsistencies.
 
 

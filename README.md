@@ -64,7 +64,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - When making images or videos ensure that it is the correct aspect ratio, 16/9 or 9/16 if that is chosen or else it will stretch the assets oddly.
 
-- It's using MoviePy isn't exactly fast but saves doing a frame every save. It usually takes about 3 times the length of the video to process. you can check it's progress in the console.
+- It's using MoviePy isn't exactly fast but it's faster then saving every frame. Video processing can take a while based upon how long your video is but it is a fire and forget process. Progress can be seen in the console I recommend making a preview video first to ensure everything looks right.
 
 - Background videos must loop correctly or be longer then your audio
 

@@ -40,9 +40,10 @@ python waveform_video_maker.py
 2. Use the interface to:
    - Select an audio file and specify the output file path.
    - Optionally, add start and end title card images.
-   - Customize the waveform and background settings.
+   - Customize the waveform and background settings. (Linear is default)
    - Adjust bloom settings for glow effects.
    - Choose the video aspect ratio (16:9 or 9:16).
+
 
 3. Click on "Generate Full Video" to create a video with the full audio length or "Generate preview Video" for a short preview.
 

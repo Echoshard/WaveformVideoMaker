@@ -1,0 +1,6 @@
+numpy
+librosa
+matplotlib
+Pillow
+psutil
+moviepy

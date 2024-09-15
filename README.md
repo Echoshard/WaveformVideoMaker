@@ -66,8 +66,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - It's using MoviePy isn't exactly fast but saves doing a frame every save. It usually takes about 3 times the length of the video to process. you can check it's progress in the console.
 
-- At this time I won't be adding too many new features. 
-
 - Background videos must loop correctly or be longer then your audio
 
 

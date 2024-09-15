@@ -13,6 +13,7 @@ WaveformVideoMaker is a lightweight tool designed for fast and easy audio wavefo
 - Apply bloom effects to the waveforms with adjustable blur radius and intensity.
 - Choose between standard (16:9) and portrait (9:16) aspect ratios.
 - Create full-length videos or 10-second previews.
+- Title cards and backgrounds are optional
 
 ## Installation
 
@@ -63,10 +64,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - When making images or videos ensure that it is the correct aspect ratio, 16/9 or 9/16 if that is chosen or else it will stretch the assets oddly.
 
-- It's using MoviePy isn't exactly fast but saves doing a frame every save.
+- It's using MoviePy isn't exactly fast but saves doing a frame every save. It usually takes about 3 times the length of the video to process. you can check it's progress in the console.
 
 - At this time I won't be adding too many new features. 
 
-- Background videos must loop correctly or be longer then your 
+- Background videos must loop correctly or be longer then your audio
 
 

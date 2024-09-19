@@ -70,4 +70,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - Background Videos: Ensure that background videos loop seamlessly or are longer than the audio track to avoid abrupt endings or visual inconsistencies.
 
+A more advanced Unity version is available here.
 
+https://github.com/Echoshard/UnityWaveformVideoMaker/
